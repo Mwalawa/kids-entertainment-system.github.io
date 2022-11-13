@@ -1,0 +1,28 @@
+.wrapper{
+    min-width: 300px;
+}
+
+@media (min-width: 380px){
+    nav .more-options{
+      display: block;
+    }
+  }
+  @media (min-width: 660px){
+    nav .sm-search{
+      display: none;
+    }
+    nav .nav-search{
+      display: block;
+    }
+  }
+  @media (min-width: 990px){
+    nav .watch-list{
+      display: flex;
+    }
+  }
+  @media (min-width: 1200px){
+    nav{
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+  }
