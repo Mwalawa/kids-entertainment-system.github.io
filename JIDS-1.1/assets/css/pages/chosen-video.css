@@ -1,0 +1,193 @@
+nav .menu-icon {
+    display: flex !important;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    padding: 20px 20px;
+}
+
+.chosen-video {
+    width: 100%;
+}
+
+.video-player-wrapper {
+    width: 100%;
+    height: 200px;
+    background-color: #222222;
+    margin-bottom: 15px;
+}
+
+.chosen-video .video-title {
+    font-size: 20px;
+}
+
+.chosen-video .owner-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.chosen-video .owner-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.chosen-video .video-main-info>div {
+    padding: 15px 0px;
+}
+
+.chosen-video .video-main-info>div>div:first-child .btn {
+    background: #ff6600;
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.chosen-video .video-main-info>div>div:last-child {
+    margin-top: 10px;
+}
+
+.chosen-video .video-main-info>div>div:last-child .btn {
+    background: #f1f1f1;
+    color: #222222;
+}
+
+.chosen-video .share {
+    margin: 0px 15px;
+}
+
+.chosen-video .download {
+    margin-right: 15px;
+    display: none;
+}
+
+.chosen-video .more-options {
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+}
+
+.more-videos {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.more-videos .related {
+    height: 130px;
+}
+
+.more-videos>.related:not(:first-child) {
+    margin-top: 15px;
+}
+
+.more-videos .video-banner {
+    width: 45%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.more-videos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.more-videos .video-info {
+    width: 55%;
+    height: 100%;
+    margin-left: 10px;
+    color: #666666;
+}
+
+.more-videos .video-info .video-title {
+    color: #000000;
+}
+
+.more-videos .video-info .owner-name {
+    margin: 5px 0px 2px 0px;
+}
+
+@media screen and (min-width: 450px) {
+    main {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .video-player-wrapper {
+        height: 250px;
+    }
+
+    .chosen-video .download {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .video-player-wrapper {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    .video-player-wrapper {
+        height: 360px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .video-player-wrapper {
+        height: 400px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .video-player-wrapper {
+        height: 450px;
+    }
+    .chosen-video .video-main-info>div{
+        flex-direction: row;
+    }
+    .chosen-video .video-main-info>div>div:last-child {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 990px){
+    main{
+        flex-direction: row !important;
+    }
+    .chosen-video{
+        width: 60%;
+    }
+    .more-videos{
+        margin-top: 0;
+        margin-left: 20px;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .video-player-wrapper {
+        height: 500px;
+    }
+    .chosen-video{
+        width: 70%;
+    }
+
+    .more-videos{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1500px){
+    main{
+        margin: auto;
+        max-width: 1500px;
+    }
+}

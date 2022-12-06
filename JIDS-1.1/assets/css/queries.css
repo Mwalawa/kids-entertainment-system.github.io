@@ -1,0 +1,38 @@
+body {
+  min-width: 320px;
+}
+
+@media (min-width: 380px) {
+  nav .more-options {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 660px) {
+  nav .sm-search {
+    display: none;
+  }
+
+  nav .nav-search {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  nav .watch-list {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1170px) {
+  nav .menu-icon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  nav {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
